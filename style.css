@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Shadows+Into+Light&display=swap');
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 199, 253);
+}
+#header{
+    background-color: rgb(160, 86, 209);
+    text-align: center;
+    padding: 5px 100px;
+    position: sticky;    
+}
+h1{
+    font-family: 'Dancing Script';
+}
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+}
+p{
+    font-family: 'Shadows Into Light';
+}
+.profil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profil img{
+    width: 20%;
+    border-radius: 50%;
+    top: 50px;
+    justify-content: center;
+}
+
+.galeri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.galeri h2{
+    width: 100%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.kartu-aktivitas{
+    background-color: rgb(219, 184, 252);
+    padding: 20px 20px;
+    border: 1px solid #7a6666;
+    border-radius: 5%;
+    justify-content: space-around;
+    margin: 10px;
+    width: 50%;
+}
+
+.kartu-aktivitas :hover{
+    background-color: rgb(112, 67, 153);
+}
