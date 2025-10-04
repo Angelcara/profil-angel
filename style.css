@@ -30,8 +30,9 @@ p{
 .profil img{
     width: 20%;
     border-radius: 50%;
-    top: 50px;
+    top: 50%s;
     justify-content: center;
+    padding: 5% 0;
 }
 
 .galeri{
@@ -42,7 +43,6 @@ p{
 
 .galeri h2{
     width: 100%;
-    margin-bottom: 20%;
     text-align: center;
 }
 
@@ -50,12 +50,12 @@ p{
     background-color: rgb(219, 184, 252);
     padding: 20px 20px;
     border: 1px solid #7a6666;
-    border-radius: 5%;
+    border-radius: 10%;
     justify-content: space-around;
     margin: 10px;
     width: 50%;
 }
 
-.kartu-aktivitas :hover{
-    background-color: rgb(112, 67, 153);
+.kartu-aktivitas:hover{
+    background-color: rgb(200, 150, 247);
 }
